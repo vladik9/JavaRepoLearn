@@ -2,6 +2,7 @@ package DataTypesPackage;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Primitive data types!!!");
         System.out.println("Int data types: 1");
 //        int intValue = 1_000; // 4 bytes stores whole numbers from -2,147,483,648 to 2,147,483,647
         int intMinValue = Integer.MIN_VALUE;
@@ -54,6 +55,7 @@ public class Main {
         System.out.println("\nChar data types: 8");
         char charValue = 'V'; // 2 bytes stores a single character/letter or ASCII values
         System.out.println("The charValue value is " + charValue);
+
 
     }
 }
