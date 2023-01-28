@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ab4ce08d-0731-4a49-9105-7d1bdd6e10c5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OuterInerAndInterfaceAnonymousImplementation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LocalPacket/pack/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LocalPacket/pack/OuterClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../InnerClasses/InnerClasses/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../InnerClasses/InnerClasses/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../InnerClasses/InnerClasses/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../InnerClasses/InnerClasses/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../InnerClasses/InnerClasses/InnerClasses.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../InnerClasses/InnerClasses/src/Home/Room/Home.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../InterfaceChalange/InterfaceChalange/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../InterfaceChalange/InterfaceChalange/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../InterfaceChalange/InterfaceChalange/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../InterfaceChalange/InterfaceChalange/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../InterfaceChalange/InterfaceChalange/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../InterfaceChalange/InterfaceChalange/InterfaceChalange.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../InterfaceChalange/InterfaceChalange/src/Interface/SaveObject/Cars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../InterfaceChalange/InterfaceChalange/src/Interface/SaveObject/ISaveable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interfaces/Interfaces/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interfaces/Interfaces/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interfaces/Interfaces/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interfaces/Interfaces/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interfaces/Interfaces/Interfaces.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interfaces/Interfaces/src/Interface/Learn/DeskPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interfaces/Interfaces/src/Interface/Learn/IPc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interfaces/Interfaces/src/Interface/Learn/IPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interfaces/Interfaces/src/Interface/Learn/MobilePhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TestingProgram/TestingProgram/src/TestingProgramPackage/AbstractClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../List/List/src/GroceryList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../List/List/src/GroceryList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TestingProgram/TestingProgram/out/production/TestingProgram/TestingProgramPackage/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../TestingProgram/TestingProgram/out/production/TestingProgram/TestingProgramPackage/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TestingProgram/TestingProgram/out/production/TestingProgram/TestingProgramPackage/NotMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../TestingProgram/TestingProgram/out/production/TestingProgram/TestingProgramPackage/NotMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TestingProgram/TestingProgram/src/TestingProgramPackage/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../TestingProgram/TestingProgram/src/TestingProgramPackage/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TestingProgram/TestingProgram/src/TestingProgramPackage/NotMain.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KmIibn8L4fG2XqhPiXNmBjyPVR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "actions.on.save"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="OuterInerAndInterfaceAnonymousImplementation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="OuterInerAndInterfaceAnonymousImplementation" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab4ce08d-0731-4a49-9105-7d1bdd6e10c5" name="Changes" comment="" />
+      <created>1674573459192</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674573459192</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
