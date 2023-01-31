@@ -1,44 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab4ce08d-0731-4a49-9105-7d1bdd6e10c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OuterInerAndInterfaceAnonymousImplementation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LocalPacket/pack/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LocalPacket/pack/OuterClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../InnerClasses/InnerClasses/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../InnerClasses/InnerClasses/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../InnerClasses/InnerClasses/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../InnerClasses/InnerClasses/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../InnerClasses/InnerClasses/InnerClasses.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../InnerClasses/InnerClasses/src/Home/Room/Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../InterfaceChalange/InterfaceChalange/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../InterfaceChalange/InterfaceChalange/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../InterfaceChalange/InterfaceChalange/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../InterfaceChalange/InterfaceChalange/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../InterfaceChalange/InterfaceChalange/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../InterfaceChalange/InterfaceChalange/InterfaceChalange.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../InterfaceChalange/InterfaceChalange/src/Interface/SaveObject/Cars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../InterfaceChalange/InterfaceChalange/src/Interface/SaveObject/ISaveable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Interfaces/Interfaces/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Interfaces/Interfaces/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Interfaces/Interfaces/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Interfaces/Interfaces/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Interfaces/Interfaces/Interfaces.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Interfaces/Interfaces/src/Interface/Learn/DeskPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Interfaces/Interfaces/src/Interface/Learn/IPc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Interfaces/Interfaces/src/Interface/Learn/IPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Interfaces/Interfaces/src/Interface/Learn/MobilePhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../TestingProgram/TestingProgram/src/TestingProgramPackage/AbstractClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../List/List/src/GroceryList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../List/List/src/GroceryList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TestingProgram/TestingProgram/out/production/TestingProgram/TestingProgramPackage/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../TestingProgram/TestingProgram/out/production/TestingProgram/TestingProgramPackage/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TestingProgram/TestingProgram/out/production/TestingProgram/TestingProgramPackage/NotMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../TestingProgram/TestingProgram/out/production/TestingProgram/TestingProgramPackage/NotMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TestingProgram/TestingProgram/src/TestingProgramPackage/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../TestingProgram/TestingProgram/src/TestingProgramPackage/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TestingProgram/TestingProgram/src/TestingProgramPackage/NotMain.java" beforeDir="false" />
-    </list>
+    <list default="true" id="ab4ce08d-0731-4a49-9105-7d1bdd6e10c5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

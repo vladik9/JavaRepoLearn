@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Abstract/Abstract.iml" filepath="$PROJECT_DIR$/Abstract/Abstract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Encapsulation/Encapsulation.iml" filepath="$PROJECT_DIR$/Encapsulation/Encapsulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP2/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/OOP2/Inheritance/Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InnerClasses/InnerClasses.iml" filepath="$PROJECT_DIR$/InnerClasses/InnerClasses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InterfaceChalange/InterfaceChalange.iml" filepath="$PROJECT_DIR$/InterfaceChalange/InterfaceChalange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interfaces/Interfaces.iml" filepath="$PROJECT_DIR$/Interfaces/Interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaPrograms.iml" filepath="$PROJECT_DIR$/.idea/JavaPrograms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/List/List.iml" filepath="$PROJECT_DIR$/List/List.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyFirstProjectHelloWorld/MyFirstProjectHelloWorld.iml" filepath="$PROJECT_DIR$/MyFirstProjectHelloWorld/MyFirstProjectHelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP1/OOP1.iml" filepath="$PROJECT_DIR$/OOP1/OOP1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP2/OOP2/OOP2.iml" filepath="$PROJECT_DIR$/OOP2/OOP2/OOP2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReadingUserInputUsingScanner/ReadingUserInputUsingScanner.iml" filepath="$PROJECT_DIR$/ReadingUserInputUsingScanner/ReadingUserInputUsingScanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SecondProjectDataTypes/SecondProjectDataTypes.iml" filepath="$PROJECT_DIR$/SecondProjectDataTypes/SecondProjectDataTypes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Summary/Summary.iml" filepath="$PROJECT_DIR$/Summary/Summary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestAndLearn/TestAndLearn.iml" filepath="$PROJECT_DIR$/TestAndLearn/TestAndLearn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestingProgram/TestingProgram.iml" filepath="$PROJECT_DIR$/TestingProgram/TestingProgram.iml" />
+    </modules>
+  </component>
+</project>
