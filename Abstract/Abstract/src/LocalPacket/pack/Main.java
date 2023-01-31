@@ -11,7 +11,7 @@ public class Main {
                 System.out.println("This is my more data:  " + text);
             }
         });
-//        OuterClass.InnerClass subInnerClass = outerClassObject.new InnerClass("Programmer");
+        OuterClass.InnerClass subInnerClass = outerClassObject.new InnerClass("Programmer");
 
         outerClassObject.printMyMess("Some random data");
     }
