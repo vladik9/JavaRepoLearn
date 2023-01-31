@@ -3,44 +3,57 @@ package Summary.Pack;
 
 import java.util.Scanner;
 
+
 class Main {
 
 
     public static void main(String[] args) {
         boolean quit = true;
         Scanner scanner = new Scanner(System.in);
+//default person in list
+        Mature Vlad = new Mature("Vlad", 26, "boy", "Master's degree");
+        Mature Iona = new Mature("Iona", 28, "girl", "Master's degree");
+        Mature Corina = new Mature("Corina", 24, "girl", "Master's degree");
+        Mature Eleanora = new Mature("Eleanora", 44, "girl", "Doctor's degree");
 
-//        Mature Vlad = new Mature("Vlad", 26, "boy", "Master's degree");
-//        Mature Iona = new Mature("Iona", 28, "girl", "Master's degree");
-//        Mature Corina = new Mature("Corina", 24, "girl", "Master's degree");
-//        Mature Eleanora = new Mature("Eleanora", 44, "girl", "Doctor's degree");
-//
-//
-//        Child Tommy = new Child("Tommy", 7, "boy", "preschool");
-//        Child Anna = new Child("Anna", 6, "girl", "preschool");
-//        Child Timmy = new Child("Timmy", 8, "boy", "preschool");
-//
-//        Old John = new Old("John", 66, "boy", "Doctor's degree");
-//        Old Elisabeth = new Old("Elisabeth", 70, "girl", "Doctor's degree");
-//        Old Diana = new Old("Diana", 64, "girl", "Doctor's degree");
-//
-        WorkingClass<Mature> newWorkerList = new WorkingClass<>();
-        ChildrenClass<Child> childChildrenList = new ChildrenClass<>();
-        PensionerClass<Old> oldPensionerList = new PensionerClass<>();
+
+        Child Tommy = new Child("Tommy", 7, "boy", "preschool");
+        Child Anna = new Child("Anna", 6, "girl", "preschool");
+        Child Timmy = new Child("Timmy", 8, "boy", "preschool");
+
+        Old John = new Old("John", 66, "boy", "Doctor's degree");
+        Old Elisabeth = new Old("Elisabeth", 70, "girl", "Doctor's degree");
+        Old Diana = new Old("Diana", 64, "girl", "Doctor's degree");
+
+        ChildrenClass<Child> childrenList = new ChildrenClass<>();
+        MatureClass<Mature> matureList = new MatureClass<>();
+        PensionerClass<Old> oldList = new PensionerClass<>();
+
+        matureList.addMatureToList(Vlad);
+        matureList.addMatureToList(Iona);
+        matureList.addMatureToList(Corina);
+        matureList.addMatureToList(Eleanora);
+        childrenList.addOneChildToList(Tommy);
+        childrenList.addOneChildToList(Anna);
+        childrenList.addOneChildToList(Timmy);
+        oldList.addOnePensionerToList(John);
+        oldList.addOnePensionerToList(Elisabeth);
+        oldList.addOnePensionerToList(Diana);
 
 
         while (quit) {
+
             System.out.println("##################");
             System.out.println("1 Create a person: ");
-            System.out.println("2 Print a person info: ");
-            System.out.println("3 Add Person to list: ");
+            System.out.println("2 Print a person info from list: ");
+            System.out.println("3 Remove person from list: ");
             System.out.println("4 Quit");
             System.out.print("your option: #");
 
             int option = scanner.nextInt();
             scanner.nextLine();
 
-            Human humanPerson;
+
             if (option == 1) {
                 System.out.println("Enter person name: ");
                 System.out.println("Enter type of person you want to create: ");
@@ -64,10 +77,11 @@ class Main {
                     childGender = scanner.nextLine();
                     System.out.println("Enter child school level: ");
                     childSchoolLevel = scanner.nextLine();
-//                    System.out.println(childName + childAge + childGender + childSchoolLevel);
+//
 
                     Child newChild = new Child(childName, childAge, childGender, childSchoolLevel);
-                    childChildrenList.addOneChildToList(newChild);
+                    String output = childrenList.addOneChildToList(newChild) ? "Added" : "List already have this user";
+                    System.out.println(output);
 
 
                 } else if (personOption == 2) {
@@ -84,10 +98,13 @@ class Main {
                     matureGender = scanner.nextLine();
                     System.out.println("Enter mature school level: ");
                     matureSchoolLevel = scanner.nextLine();
-//                    System.out.println(matureName + maturedAge + matureGender + matureSchoolLevel);
+
                     Mature newMature = new Mature(matureName, maturedAge, matureGender, matureSchoolLevel);
-                    newWorkerList.addWorkerToWorkingClass(newMature);
-                    newWorkerList.printAllMature();
+
+                    String output = matureList.addMatureToList(newMature) ? "Added" : "List already have this user";
+                    System.out.println(output);
+
+
                 } else if (personOption == 3) {
                     String oldName;
                     int oldAge;
@@ -102,52 +119,65 @@ class Main {
                     oldGender = scanner.nextLine();
                     System.out.println("Enter old school level: ");
                     oldSchoolLevel = scanner.nextLine();
-//                    System.out.println(oldName + oldAge + oldGender + oldSchoolLevel);
+
                     Old newOld = new Old(oldName, oldAge, oldGender, oldSchoolLevel);
-                    oldPensionerList.addOnePensionerToList(newOld);
-                    oldPensionerList.printAllPensioners();
+
+                    String output = oldList.addOnePensionerToList(newOld) ? "Added" : "List already have this user";
+                    System.out.println(output);
                 } else {
                     System.out.println("Sorry wrong input try again!");
                 }
 
+            } else if (option == 2) {
+                System.out.println("Enter list name you want to see: ");
+                System.out.println("1 Child");
+                System.out.println("2 Mature");
+                System.out.println("3 Old");
+                int personOption = scanner.nextInt();
+                scanner.nextLine();
+                if (personOption == 1) {
+                    childrenList.printAllChildren();
+                } else if (personOption == 2) {
+                    matureList.printAllMature();
+                } else if (personOption == 3) {
+                    oldList.printAllPensioners();
+                }
+
+            } else if (option == 3) {
+                System.out.println("Option 3");
+                System.out.println("Enter list name you want to delete: ");
+
+                System.out.println("1 Child");
+                System.out.println("2 Mature");
+                System.out.println("3 Old");
+                int personOption = scanner.nextInt();
+                scanner.nextLine();
+                if (personOption == 1) {
+                    System.out.println("Enter person name you want to delete: ");
+                    String personName = scanner.nextLine();
+                    String output = childrenList.removeOneChildFromList(personName) ? "Successfully removed" : "Can't remove this user";
+                    System.out.println(output);
+                } else if (personOption == 2) {
+                    System.out.println("Enter person name you want to delete: ");
+                    String personName = scanner.nextLine();
+                    String output = matureList.removeOneChildFromList(personName) ? "Successfully removed" : "Can't remove this user";
+                    System.out.println(output);
+
+                } else if (personOption == 3) {
+                    System.out.println("Enter person name you want to delete: ");
+                    String personName = scanner.nextLine();
+                    String output = oldList.removeOneMatureFromList(personName) ? "Successfully removed" : "Can't remove this user";
+                    System.out.println(output);
+                }
+
             } else if (option == 4) {
                 quit = false;
+            } else {
+                System.out.println("Sorry wrong input try again!");
             }
 
 
         }
-
-
-//        System.out.println("Adding workers: ");
-//        if (newWorkerList.addWorkerToWorkingClass(Vlad)) {
-//            System.out.println("Worker added " + Vlad.getHumanName());
-//
-//        } else {
-//            System.out.println("Worker not added " + Vlad.getHumanName());
-//        }
-//        if (newWorkerList.addWorkerToWorkingClass(Iona)) {
-//            System.out.println("Worker added " + Iona.getHumanName());
-//
-//        } else {
-//            System.out.println("Worker not added " + Iona.getHumanName());
-//        }
-//        if (newWorkerList.addWorkerToWorkingClass(Corina)) {
-//            System.out.println("Worker added " + Corina.getHumanName());
-//
-//        } else {
-//            System.out.println("Worker not added " + Corina.getHumanName());
-//        }
-//
-////        System.out.println(newWorkerList.addWorkerToWorkingClass(Corina));
-//
-//        newWorkerList.listWorkersList();
-//
-//        if (newWorkerList.removeWorkerFromList(Eleanora)) {
-//            System.out.println("Worker " + Eleanora.getHumanName() + " was removed from list");
-//        } else {
-//            System.out.println("Can't remove " + Eleanora.getHumanName() + " from list");
-//
-//        }
 
 
     }
