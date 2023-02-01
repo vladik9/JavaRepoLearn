@@ -77,7 +77,7 @@ class Main {
                     childGender = scanner.nextLine();
                     System.out.println("Enter child school level: ");
                     childSchoolLevel = scanner.nextLine();
-//
+
 
                     Child newChild = new Child(childName, childAge, childGender, childSchoolLevel);
                     String output = childrenList.addOneChildToList(newChild) ? "Added" : "List already have this user";

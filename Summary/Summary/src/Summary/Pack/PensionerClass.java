@@ -2,6 +2,7 @@ package Summary.Pack;
 
 import java.util.ArrayList;
 import java.util.ListIterator;
+import java.util.Scanner;
 
 public class PensionerClass<T extends Old> {
     private ArrayList<Old> pensionerList;
@@ -27,6 +28,8 @@ public class PensionerClass<T extends Old> {
             System.out.println(index + 1 + " is " + old.getHumanName());
         }
         System.out.println("#######END########");
+        Scanner scanner= new Scanner(System.in);
+        scanner.nextLine();
     }
 
     public boolean removeOneMatureFromList(String old) {
