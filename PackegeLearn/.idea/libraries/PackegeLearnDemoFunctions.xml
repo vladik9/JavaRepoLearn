@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="PackegeLearnDemoFunctions">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../artifacts/PackegeLearn_jar/PackegeLearnDemoFunctions.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

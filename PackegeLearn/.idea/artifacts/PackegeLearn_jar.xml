@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PackegeLearn:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PackegeLearn_jar</output-path>
+    <root id="archive" name="PackegeLearn.jar">
+      <element id="module-output" name="PackegeLearn" />
+    </root>
+  </artifact>
+</component>
