@@ -3,19 +3,20 @@ package Summary.Pack;
 
 import java.util.ArrayList;
 import java.util.ListIterator;
+import java.util.Scanner;
 
-public class ChildrenClass<T extends Child> {
-    private ArrayList<Child> childrenList;
+public class ChildrenClass<T extends Human> {
+    private ArrayList<T> childrenList;
 
     public ChildrenClass() {
         childrenList = new ArrayList<>();
     }
 
-    public ArrayList<Child> getChildArrayList() {
+    public ArrayList<T> getChildArrayList() {
         return childrenList;
     }
 
-    public boolean addOneChildToList(Child newChild) {
+    public boolean addOneChildToList(T newChild) {
         if (childrenList.contains(newChild)) return false;
         childrenList.add(newChild);
         return true;
@@ -23,7 +24,7 @@ public class ChildrenClass<T extends Child> {
 
     public boolean removeOneChildFromList(String childName) {
 
-        ListIterator<Child> it = childrenList.listIterator();
+        ListIterator<T> it = childrenList.listIterator();
 
         while (it.hasNext()) {
             String name = it.next().getHumanName();
@@ -40,9 +41,11 @@ public class ChildrenClass<T extends Child> {
     public void printAllChildren() {
         int index = 0;
         System.out.println("Children are: ");
-        for (Child child : childrenList) {
+        for (T child : childrenList) {
             System.out.println(index + 1 + " is " + child.getHumanName());
         }
         System.out.println("#######END########");
+        Scanner scanner= new Scanner(System.in);
+        scanner.nextLine();
     }
 }

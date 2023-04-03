@@ -4,18 +4,18 @@ import java.util.ArrayList;
 import java.util.ListIterator;
 import java.util.Scanner;
 
-public class PensionerClass<T extends Old> {
-    private ArrayList<Old> pensionerList;
+public class PensionerClass<T extends Human> {
+    private ArrayList<T> pensionerList;
 
     public PensionerClass() {
         this.pensionerList = new ArrayList<>();
     }
 
-    public ArrayList<Old> getPensionerList() {
+    public ArrayList<T> getPensionerList() {
         return pensionerList;
     }
 
-    public boolean addOnePensionerToList(Old newOld) {
+    public boolean addOnePensionerToList(T newOld) {
         if (pensionerList.contains(newOld)) return false;
         pensionerList.add(newOld);
         return true;
@@ -24,7 +24,7 @@ public class PensionerClass<T extends Old> {
     public void printAllPensioners() {
         int index = 0;
         System.out.println("Children are: ");
-        for (Old old : pensionerList) {
+        for (T old : pensionerList) {
             System.out.println(index + 1 + " is " + old.getHumanName());
         }
         System.out.println("#######END########");
@@ -33,7 +33,7 @@ public class PensionerClass<T extends Old> {
     }
 
     public boolean removeOneMatureFromList(String old) {
-        ListIterator<Old> it = pensionerList.listIterator();
+        ListIterator<T> it = pensionerList.listIterator();
 
         while (it.hasNext()) {
             String name = it.next().getHumanName();

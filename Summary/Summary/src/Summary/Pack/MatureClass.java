@@ -2,10 +2,11 @@ package Summary.Pack;
 
 import java.util.ArrayList;
 import java.util.ListIterator;
+import java.util.Scanner;
 
-public class MatureClass<T extends Mature> {
+public class MatureClass<T extends Human> {
 
-    private ArrayList<Mature> matureList = new ArrayList();
+    private ArrayList<T> matureList = new ArrayList();
 
 
     public boolean addMatureToList(T worker) {
@@ -29,15 +30,17 @@ public class MatureClass<T extends Mature> {
     public void printAllMature() {
         int index = 0;
         System.out.println("Mature are: ");
-        for (Mature mature : matureList) {
+        for (T mature : matureList) {
             System.out.println(index + 1 + " is " + mature.getHumanName());
         }
         System.out.println("#######END########");
+        Scanner scanner= new Scanner(System.in);
+        scanner.nextLine();
     }
 
     public boolean removeOneChildFromList(String mature) {
 
-        ListIterator<Mature> it = matureList.listIterator();
+        ListIterator<T> it = matureList.listIterator();
 
         while (it.hasNext()) {
             String name = it.next().getHumanName();
