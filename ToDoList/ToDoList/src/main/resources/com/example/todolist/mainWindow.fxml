@@ -4,13 +4,46 @@
 <?import javafx.scene.control.ListView?>
 
 <?import javafx.scene.control.TextArea?>
-<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.todolist.HelloController"
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuItem?>
+<BorderPane fx:id="mainBorderPane" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.todolist.MainController"
             xmlns="http://javafx.com/javafx/8.0.40">
+    <top>
+        <MenuBar>
+            <Menu text="File">
+                <MenuItem fx:id="newItemMenu" text="New..." onAction="#controlMenuActions"/>
+                <MenuItem fx:id="exitItemMenu" text="Exit"/>
+            </Menu>
+        </MenuBar>
+    </top>
     <left>
-        <ListView fx:id="todoListView" onMouseClicked="#handleClickListView">
+        <ListView fx:id="todoListView">
         </ListView>
     </left>
     <center>
-        <TextArea fx:id="itemDetailsTextArea"/>
+        <VBox style="-fx-background-color:white">
+            <TextArea fx:id="itemDetailsTextArea" VBox.vgrow="ALWAYS"/>
+            <HBox>
+                <Label text="DUE:">
+                    <font>
+                        <Font name="Times New Roman bold" size="16"/>
+                    </font>
+                </Label>
+                <Label fx:id="dueData" style="-fx-background-color:white">
+                    <font>
+                        <Font name="Times New Roman bold" size="16"/>
+                    </font>
+                </Label>
+            </HBox>
+        </VBox>
+
     </center>
+
+
 </BorderPane>

@@ -1,0 +1,6 @@
+buy some stuff	Go to store and buy it.	25-04-2023
+do dishes	Clear All	26-04-2023
+make clean	Clean apartment.	27-04-2023
+go in vacation	Select a place for vacation	20-04-2023
+rqwe	rqwrqw	04-05-2023
+rqwdq	dqwdqw	10-05-2023

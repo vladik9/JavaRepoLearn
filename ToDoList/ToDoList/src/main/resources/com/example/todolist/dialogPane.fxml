@@ -1,0 +1,29 @@
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextArea?>
+<DialogPane fx:id="dialogPane" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.todolist.DialogController"
+            xmlns="http://javafx.com/javafx/8.0.40">
+    <headerText>
+        Enter your data:
+    </headerText>
+    <content>
+        <GridPane vgap="10" hgap="10">
+            <Label GridPane.columnIndex="0" GridPane.rowIndex="0">
+                Short description:
+            </Label>
+            <TextField fx:id="shortDescription" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+            <Label GridPane.columnIndex="0" GridPane.rowIndex="1">
+                Details:
+            </Label>
+            <TextArea fx:id="detailsArea" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+            <Label GridPane.columnIndex="0" GridPane.rowIndex="2">
+                Dead line:
+            </Label>
+            <DatePicker fx:id="dueDatePicker" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+        </GridPane>
+    </content>
+</DialogPane>
