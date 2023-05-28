@@ -13,28 +13,28 @@ public class ToDoItem {
         this.deadLine = deadLine;
     }
 
-    public void setShortDescription(String shortDescription) {
-        this.shortDescription = shortDescription;
-    }
-
-    public void setDetails(String details) {
-        this.details = details;
-    }
-
-    public void setDeadLine(LocalDate deadLine) {
-        this.deadLine = deadLine;
-    }
-
     public String getShortDescription() {
         return shortDescription;
+    }
+
+    public void setShortDescription(String shortDescription) {
+        this.shortDescription = shortDescription;
     }
 
     public String getDetails() {
         return details;
     }
 
+    public void setDetails(String details) {
+        this.details = details;
+    }
+
     public LocalDate getDeadLine() {
         return deadLine;
+    }
+
+    public void setDeadLine(LocalDate deadLine) {
+        this.deadLine = deadLine;
     }
 
     @Override
@@ -42,4 +42,6 @@ public class ToDoItem {
         return shortDescription;
 
     }
+
+
 }
