@@ -20,13 +20,12 @@ public class DialogController {
     @FXML
     private DatePicker dueDatePicker;
 
-
-    public void processResult() {
+    public ToDoItem processResult() {
         String description = shortDescription.getText().trim();
         String details = detailsArea.getText().trim();
         LocalDate dueDate = dueDatePicker.getValue();
-
-        ToDoData.getInstance().addToDoItem(new ToDoItem(description, details, dueDate));
-
+        ToDoItem toDoItem = new ToDoItem(description, details, dueDate);
+        ToDoData.getInstance().addToDoItem(toDoItem);
+        return toDoItem;
     }
 }

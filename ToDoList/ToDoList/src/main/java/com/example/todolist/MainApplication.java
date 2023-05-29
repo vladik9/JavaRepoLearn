@@ -10,6 +10,11 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class MainApplication extends Application {
+    @FXML
+    public static void main(String[] args) {
+        launch(args);
+    }
+
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource("mainWindow.fxml"));
@@ -20,11 +25,6 @@ public class MainApplication extends Application {
         stage.show();
     }
 
-    @FXML
-    public static void main(String[] args) {
-        launch(args);
-    }
-
     @Override
     public void stop() throws Exception {
         try {
@@ -33,7 +33,6 @@ public class MainApplication extends Application {
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
-
     }
 
     @Override

@@ -4,7 +4,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.TextArea?>
-<DialogPane fx:id="dialogPane" xmlns:fx="http://javafx.com/fxml/1"
+<DialogPane xmlns:fx="http://javafx.com/fxml/1" fx:id="dialogPane"
             fx:controller="com.example.todolist.DialogController"
             xmlns="http://javafx.com/javafx/8.0.40">
     <headerText>
@@ -19,7 +19,7 @@
             <Label GridPane.columnIndex="0" GridPane.rowIndex="1">
                 Details:
             </Label>
-            <TextArea fx:id="detailsArea" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+            <TextArea fx:id="detailsArea" GridPane.columnIndex="1" GridPane.rowIndex="1" wrapText="true"/>
             <Label GridPane.columnIndex="0" GridPane.rowIndex="2">
                 Dead line:
             </Label>
