@@ -1,6 +1,5 @@
 package com.example.todolist.dataModel;
 
-
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
