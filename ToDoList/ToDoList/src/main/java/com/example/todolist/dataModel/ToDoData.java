@@ -35,10 +35,6 @@ public class ToDoData {
     }
 
 
-    public List<ToDoItem> getTodoItems() {
-        return toDoItems;
-    }
-
     public void addToDoItem(ToDoItem item) {
         System.out.println("Adding " +
                 item.getDetails() +
@@ -48,7 +44,6 @@ public class ToDoData {
     }
 
     public void loadToDoItems() throws IOException {
-
         toDoItems = FXCollections.observableArrayList();
         Path path = Paths.get(fileName);
         BufferedReader br = Files.newBufferedReader(path);
@@ -92,5 +87,7 @@ public class ToDoData {
 
     }
 
-
+    public void deleteTodoItem(ToDoItem item) {
+        toDoItems.remove(item);
+    }
 }
