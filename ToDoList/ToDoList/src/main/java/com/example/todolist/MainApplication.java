@@ -18,7 +18,7 @@ public class MainApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource("mainWindow.fxml"));
-
+        setUserAgentStylesheet(STYLESHEET_CASPIAN);
         Scene scene = new Scene(fxmlLoader.load(), 1000, 300);
         stage.setTitle("Todo list!");
         stage.setScene(scene);
