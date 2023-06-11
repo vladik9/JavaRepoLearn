@@ -1,13 +1,18 @@
 
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     private static Locations locations = new Locations();
 
     public static void main(String[] args) {
+
+        Collections.sort(new LinkedList<Integer>(), new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+
+            }
+        });
         // Change the program to allow players to type full words, or phrases, then move to the
         // correct location based upon their input.
         // The player should be able to type commands such as "Go West", "run South", or just "East"
